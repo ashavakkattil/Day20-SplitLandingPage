@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  transition: flex 0.4s;
+  transition: flex 0.5s ease-in-out;
 }
 
 .section-1 {
@@ -60,9 +60,9 @@ body {
 }
 
 /* Hover effect */
-/* .active {
-  flex: 3;
+.active {
+  flex: 2;
 }
 .inactive {
   flex: 1;
-} */
+}
